@@ -97,4 +97,3 @@ echo "        username: CRAZY"
 echo "        password: CRAZY"
 echo "Crazy Was Here Don't Forgot To Like and Rply"
 echo
-fi
