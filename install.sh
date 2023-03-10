@@ -10,7 +10,7 @@ echo " o Stopping old nessusd"
 /bin/systemctl stop nessusd.service &>/dev/null
 echo " o Downloading Nessus.."
 curl -A Mozilla --request GET \
-  --url 'https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-latest-ubuntu1404_amd64.deb' \
+  --url 'https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.4.2-ubuntu1404_amd64.deb' \
   --output 'Nessus-10.4.2-ubuntu1404_amd64.deb' &>/dev/null
 echo " o Installing Nessus.."
 dpkg -i Nessus-10.4.2-ubuntu1404_amd64.deb &>/dev/null
